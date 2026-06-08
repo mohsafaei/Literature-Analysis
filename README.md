@@ -1,6 +1,3 @@
-"# Literature-Analysis" 
-
-
 # Literature Analysis
 
 A Jupyter notebook for exploratory bibliometric analysis of academic papers from a CSV dataset.
