@@ -5,7 +5,7 @@ A Jupyter notebook for exploratory bibliometric analysis of academic papers from
 ## Requirements
 ```bash
 pip install pandas matplotlib seaborn numpy networkx scikit-learn wordcloud
-
+```
 ## Input
 
 Place a `papers.csv` file in the same directory. The notebook expects these columns:
