@@ -85,36 +85,11 @@ Run all cells top to bottom (`Kernel > Restart & Run All`).
 
 
 
-<style>
-  /* 1. Styling for rounded corners */
-  .rounded-img {
-    border-radius: 15px; /* Adjust this to make it more or less round */
-    transition: transform 0.2s; /* Smooth animation */
-  }
+<div style="text-align: center; margin-bottom: 12px;">
+  <img src="DDS_WordCloud.jpg" alt="Figure 1" style="width: 80%; border-radius: 12px;">
+</div>
 
-  /* 2. Zoom on hover effect */
-  .rounded-img:hover {
-    transform: scale(1.05); /* Slightly enlarge the image when hovering */
-    cursor: zoom-in;
-  }
-</style>
-
-
-<table>
-  <!-- First Row: Single Column -->
-  <tr>
-    <td colspan="2" style="text-align: center;">
-      <img src="DDS_WordCloud.jpg" alt="Description" width="100%">
-    </td>
-  </tr>
-  
-  <!-- Second Row: Two Columns -->
-  <tr>
-    <td style="width: 50%;">
-      <img src="Keyword_Literature.jpg" alt="Description" width="100%">
-    </td>
-    <td style="width: 50%;">
-      <img src="SPA_in_Literature.jpg" alt="Description" width="100%">
-    </td>
-  </tr>
-</table>
+<div style="display: flex; gap: 12px; justify-content: center;">
+  <img src="Keyword_Literature.jpg" alt="Figure 2" style="width: 48%; border-radius: 12px;">
+  <img src="SPA_in_Literature.jpg" alt="Figure 3" style="width: 48%; border-radius: 12px;">
+</div>
