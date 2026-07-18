@@ -90,6 +90,6 @@ Run all cells top to bottom (`Kernel > Restart & Run All`).
 </div>
 
 <div style="display: flex; gap: 12px; justify-content: center;">
-  <img src="Keyword_Literature.jpg" alt="Figure 2" style="width: 50%; border-radius: 12px;">
-  <img src="SPA_in_Literature.jpg" alt="Figure 3" style="width: 50%; border-radius: 12px;">
+  <img src="Keyword_Literature.jpg" alt="Figure 2" style="width: 48%; border-radius: 12px;">
+  <img src="SPA_in_Literature.jpg" alt="Figure 3" style="width: 48%; border-radius: 12px;">
 </div>
