@@ -78,7 +78,13 @@ jupyter notebook Literature-Analysis.ipynb
 Run all cells top to bottom (`Kernel > Restart & Run All`).
 
 
-
+<table>
+  <tr>
+    <td width="100%">
+      <img src="DDS_WordCloud.jpg" alt="Figure 2" style="border-radius: 8px; width: 100%;">
+    </td>
+  </tr>
+</table>
 
 <table>
   <tr>
