@@ -86,8 +86,9 @@ Run all cells top to bottom (`Kernel > Restart & Run All`).
 
 
 <div style="display: flex; gap: 12px; justify-content: center; align-items: center;">
+  <img src="DDS_WordCloud.jpg" alt="Figure 4" style="flex: 1; height: 250px; object-fit: cover; object-position: center; border-radius: 12px;">
   <img src="Keyword_Literature.jpg" alt="Figure 2" style="flex: 1; height: 250px; object-fit: cover; border-radius: 12px;">
   <img src="SPA_in_Literature.jpg" alt="Figure 3" style="flex: 1; height: 250px; object-fit: cover; border-radius: 12px;">
-  <img src="pie_chart.jpg" alt="Figure 4" style="flex: 1; height: 250px; object-fit: cover; border-radius: 12px;">
+  <img src="pie_chart.jpg" alt="Figure 4" style="flex: 1; height: 250px; object-fit: cover; object-position: center; border-radius: 12px;">
 </div>
 
