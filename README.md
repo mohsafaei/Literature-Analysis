@@ -89,7 +89,25 @@ Run all cells top to bottom (`Kernel > Restart & Run All`).
   <img src="DDS_WordCloud.jpg" alt="Figure 1" style="width: 100%; border-radius: 12px;">
 </div>
 
-<div style="display: flex; gap: 12px; justify-content: center;">
-  <img src="Keyword_Literature.jpg" alt="Figure 2" style="width: 48%; border-radius: 12px;">
-  <img src="SPA_in_Literature.jpg" alt="Figure 3" style="width: 48%; border-radius: 12px;">
+<div class="figure-row">
+  <img src="Keyword_Literature.jpg" alt="Figure 2">
+  <img src="SPA_in_Literature.jpg" alt="Figure 3">
+  <img src="pie_chart.jpg" alt="Figure 4">
 </div>
+
+<style>
+.figure-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  align-items: stretch;
+}
+
+.figure-row img {
+  width: 100%;
+  height: 260px;      /* set one common height */
+  object-fit: cover;  /* keeps row tight and uniform */
+  display: block;
+  border-radius: 12px;
+}
+</style>
