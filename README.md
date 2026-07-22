@@ -79,35 +79,20 @@ Run all cells top to bottom (`Kernel > Restart & Run All`).
 
 
 
-<div style="display: flex; gap: 6px; justify-content: center; align-items: stretch; max-width: 800px; margin: 0 auto;">
-  <!-- 1st and 2nd images -->
-  <img src="DDS_WordCloud.jpg" alt="Figure 1" style="flex: 1; height: 250px; object-fit: cover; border-radius: 8px;">
-  <img src="Keyword_Literature.jpg" alt="Figure 2" style="flex: 1; height: 250px; object-fit: cover; border-radius: 8px;">
-  <img src="SPA_in_Literature.jpg" alt="Figure 3" style="flex: 1; height: 250px; object-fit: cover; border-radius: 8px;">
-  
-  <!-- 3rd image: contain, transparent background, and border-radius matching the others -->
-  <img src="pie_chart.jpg" alt="Figure 4" style="flex: 1; height: 250px; object-fit: contain; border-radius: 8px; background-color: transparent;">
-</div>
-
-
-
 
 <table>
   <tr>
-    <td width="100%">
-      <img src="DDS_WordCloud.jpg" alt="Figure 2" style="border-radius: 8px; width: 100%;">
+    <td width="50%">
+      <img src="Keyword_Literature.jpg" alt="Figure 2" style="border-radius: 8px; width: 100%;">
+    </td>
+    <td width="50%">
+      <img src="SPA_in_Literature.jpg" alt="Figure 3" style="border-radius: 8px; width: 100%;">
     </td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="33%">
-      <img src="Keyword_Literature.jpg" alt="Figure 2" style="border-radius: 8px; width: 100%;">
-    </td>
-    <td width="33%">
-      <img src="SPA_in_Literature.jpg" alt="Figure 3" style="border-radius: 8px; width: 100%;">
-    </td>
     <td width="33%">
       <img src="pie_chart.jpg" alt="Figure 4" style="border-radius: 8px; width: 100%;">
     </td>
