@@ -62,18 +62,13 @@ Prints a final summary: total papers, year range, unique venues, authors, keywor
 
 ## Output Files
 
-| File                        | Description                        |
-|-----------------------------|------------------------------------|
-| `publications_per_year.png` | Papers published per year          |
-| `top_venues.png`            | Top 15 venues                      |
-| `top_authors.png`           | Top 15 authors                     |
-| `top_keywords.png`          | Top 20 keywords                    |
-| `keyword_wordcloud.png`     | Keyword word cloud                 |
-| `keyword_trends.png`        | Keyword trends over time           |
-| `citation_distribution.png` | Citation histogram *(optional)*    |
-| `avg_citations_per_year.png`| Avg citations per year *(optional)*|
-| `coauthor_network.png`      | Co-authorship network graph        |
-| `abstract_wordcloud.png`    | Abstract word cloud *(optional)*   |
+| File(s)                     | Description                                  |
+|-----------------------------|----------------------------------------------|
+| `DDS_WordCloud.jpg`         | Word Cloud                                   |
+| `Keyword_Literature.jpg`    | Papers published per year                    |
+| `SPA_in_Literature.jpg`     | Top 15 venues                                |
+| `pie_chart.jpg`             | Most frequent journals for a given keyword   |
+
 
 ## Usage
 
@@ -84,11 +79,37 @@ Run all cells top to bottom (`Kernel > Restart & Run All`).
 
 
 
-
-<div style="display: flex; gap: 12px; justify-content: center; align-items: center;">
-  <img src="DDS_WordCloud.jpg" alt="Figure 4" style="flex: 1; height: 250px; object-fit: cover; object-position: center; border-radius: 12px;">
-  <img src="Keyword_Literature.jpg" alt="Figure 2" style="flex: 1; height: 250px; object-fit: cover; border-radius: 12px;">
-  <img src="SPA_in_Literature.jpg" alt="Figure 3" style="flex: 1; height: 250px; object-fit: cover; border-radius: 12px;">
-  <img src="pie_chart.jpg" alt="Figure 4" style="flex: 1; height: 250px; object-fit: cover; object-position: center; border-radius: 12px;">
+<div style="display: flex; gap: 6px; justify-content: center; align-items: stretch; max-width: 800px; margin: 0 auto;">
+  <!-- 1st and 2nd images -->
+  <img src="DDS_WordCloud.jpg" alt="Figure 1" style="flex: 1; height: 250px; object-fit: cover; border-radius: 8px;">
+  <img src="Keyword_Literature.jpg" alt="Figure 2" style="flex: 1; height: 250px; object-fit: cover; border-radius: 8px;">
+  <img src="SPA_in_Literature.jpg" alt="Figure 3" style="flex: 1; height: 250px; object-fit: cover; border-radius: 8px;">
+  
+  <!-- 3rd image: contain, transparent background, and border-radius matching the others -->
+  <img src="pie_chart.jpg" alt="Figure 4" style="flex: 1; height: 250px; object-fit: contain; border-radius: 8px; background-color: transparent;">
 </div>
 
+
+
+
+<table>
+  <tr>
+    <td width="100%">
+      <img src="DDS_WordCloud.jpg" alt="Figure 2" style="border-radius: 8px; width: 100%;">
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="33%">
+      <img src="Keyword_Literature.jpg" alt="Figure 2" style="border-radius: 8px; width: 100%;">
+    </td>
+    <td width="33%">
+      <img src="SPA_in_Literature.jpg" alt="Figure 3" style="border-radius: 8px; width: 100%;">
+    </td>
+    <td width="33%">
+      <img src="pie_chart.jpg" alt="Figure 4" style="border-radius: 8px; width: 100%;">
+    </td>
+  </tr>
+</table>
