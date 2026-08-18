@@ -10,14 +10,17 @@ pip install pandas matplotlib seaborn numpy networkx scikit-learn wordcloud
 
 Place a `papers.csv` file in the same directory. The notebook expects these columns:
 
-| Column      | Description                        |
-|-------------|------------------------------------|
-| `year`      | Publication year                   |
-| `venue`     | Journal or conference name         |
-| `authors`   | Author list (string or list format)|
-| `keywords`  | Keywords (string or list format)   |
-| `abstract`  | Abstract text *(optional)*         |
-| `citations` | Citation count *(optional)*        |
+| Column      | Description                                |
+|:-----------:|:------------------------------------------:|
+| `Title`            | Publication title                   |
+| `Year`             | Publication year                    |
+| `authors`          | Author list (string or list format) |
+| `Author Keywords`  | Keywords (string or list format)    |
+| `DOI`              | DOI of the publications             |
+| `Link`             | Link to the publication             |
+| `Abstract`         | Abstract text *(optional)*          |
+| `Cited By`          | Citation count                     | 
+
 
 > Column names containing `"cit"` or `"abstract"` are auto-detected.
 
